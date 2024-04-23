@@ -1,0 +1,61 @@
+
+html {
+    min-height: 100%;
+    background-image: url("pizza-show.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+
+.center {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    width: 50%;
+    border: 1px solid bisque;
+    background-color:bisque;
+    padding: 10px;
+}
+
+.pizza-item {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  line-height: 50%;
+}
+
+#descriçao {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 50%;
+}
+
+.hrRed {
+  border: 1px solid darkred;
+}
+
+@font-face {
+  font-family: WindSong;
+  src: url('fonteTitulo/WindSong-Regular.ttf') format('truetype');
+}
+
+h1 {
+  font-family: WindSong;
+  font-size: 50px;
+  text-align: center;
+  margin: 5px;
+}
+
+h2 {
+  font-family: WindSong;
+  color:tomato;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.subtitulo {
+  text-align: center;
+  font-weight: bold;
+  color:darkred;
+  font-size: 15px;
+}
